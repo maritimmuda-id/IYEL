@@ -3,23 +3,23 @@ import assets from "@/assets/assets";
 export const programs = [
   {
     image: assets.program1,
-    title: "Data, Riset, dan Advokasi Kebumian",
+    title: "Lorem ipsum dolor sit amet consectetur adipisicing." ,
     alt: "research",
   },
   {
     image: assets.program2,
     title:
-      "Sosial Kebencanaan, Pendidikan Kebumian dan Kebudayaan Ramah Lingkungan",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas.",
     alt: "cleaning beach",
   },
   {
     image: assets.program3,
-    title: "Konservasi dan Pariwisata Kebumian",
+    title: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam, recusandae!",
     alt: "cleaning beach",
   },
   {
     image: assets.program4,
-    title: "Kewirausahaan dan Inovasi Teknologi Kebumian",
+    title: "sit amet, consectetur adipisicing elit.",
     alt: "cleaning beach",
   },
 ];

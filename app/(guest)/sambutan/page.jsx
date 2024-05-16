@@ -6,9 +6,9 @@ const SambutanPage = () => {
   return (
     <div>
       <Banner
-        image={"/images/sambutan.png"}
+        image={"/images/sambutan.jpg"}
         title="SAMBUTAN KETUA UMUM"
-        subtitle="Asosiasi Geomuda Indonesia"
+        subtitle="Indonesian Youth Economic Leaders"
       />
 
       <Sambutan />

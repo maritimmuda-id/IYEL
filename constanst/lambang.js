@@ -1,17 +1,17 @@
 export const lambang = [
   {
-    title: "Ikon Orang Merah Berpegangan dan Melingkar",
+    title: "Warna Biru, Hijau, Orange",
     description: [
       {
-        list: "Mencerminkan semangat pemuda yang berani dan bekerja sama dalam mengelola dan menjaga sumber daya alam secara berkelanjutan.",
+        list: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem facere mollitia aperiam quaerat accusamus! Sunt reiciendis labore iure qui molestias rerum, delectus illo esse iusto nam, quos nobis. Nobis, repudiandae!",
       },
     ],
   },
   {
-    title: "Tulisan Geomuda Indonesia Berwarna Hitam",
+    title: "Tulisan IYEL",
     description: [
       {
-        list: "Mencerminkan Geomuda Indonesia sebagai organisasi kepemudaan yang tegas dan kuat dalam membangun kebumian Indonesia.",
+        list: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem facere mollitia aperiam quaerat accusamus! Sunt reiciendis labore iure qui molestias rerum, delectus illo esse iusto nam, quos nobis. Nobis, repudiandae!",
       },
     ],
   },

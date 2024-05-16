@@ -9,7 +9,7 @@ const ActivityPage = () => {
   return (
     <main>
       <Banner
-        image={"/images/program.png"}
+        image={"/images/program.jpg"}
         title="PROGRAM"
         buttonTitle="Home"
         to="/"

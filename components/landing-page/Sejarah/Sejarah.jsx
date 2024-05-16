@@ -7,9 +7,9 @@ const Sejarah = () => {
   return (
     <div className="px-12 md:px-16 py-32">
       <div className="space-y-10">
-        <div>
+        {/* <div>
           <FaQuoteLeft className="text-4xl text-[#7B2418]" />
-        </div>
+        </div> */}
         <div>
           <h2 className="text-3xl font-semibold my-16 text-center">
             SEJARAH PENDIRIAN
@@ -34,9 +34,9 @@ const Sejarah = () => {
             ))}
           </div>
         </div>
-        <div className="flex justify-end">
+        {/* <div className="flex justify-end">
           <FaQuoteRight className="text-4xl text-[#7B2418]" />
-        </div>
+        </div> */}
       </div>
     </div>
   );

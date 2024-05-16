@@ -18,17 +18,17 @@ const Footer = () => {
         <div className="grid grid-cols-2 lg:grid-cols-[2fr_1fr_1fr_1fr] gap-6 space-y-3 text-center">
           <div className="md:flex md:flex-col justify-start items-start space-y-2 col-start-1 col-end-3 md:col-start-auto md:col-end-auto">
             <Image
-              src={assets.logoGmiTextWhite}
+              src={assets.logoIyel}
               className="w-28 -mt-2 md:-mt-9 mx-auto md:mx-0"
               alt="logo geomuda indonesia text white"
               />
-            <h4 className="font-semibold text-xl text-center md:text-left">Asosiasi Geomuda Indonesia</h4>
-            <p className="text-sm text-center md:text-left">Organisasi Kepemudaan Peduli Kebumian</p>
+            <h4 className="font-bold text-xl text-center md:text-left text-green-400 font-nunito_sans">INDONESIAN YOUTH ECONOMIC LEADERS</h4>
+            <p className="text-sm text-center md:text-left font-nunito_sans">Organisasi Pemimpin Ekonomi</p>
           </div>
 
           <div className="space-y-5">
-            <h4 className="font-semibold text-lg">Website</h4>
-              <div className="space-y-1 text-sm flex flex-col">
+            <h4 className="font-bold text-lg text-green-400 font-nunito_sans">Website</h4>
+              <div className="space-y-1 text-sm flex flex-col ">
                 <Link href="/">
                   Beranda
                 </Link>
@@ -45,7 +45,7 @@ const Footer = () => {
           </div>
 
           <div className="space-y-5">
-            <h4 className="font-semibold text-lg">
+            <h4 className="font-bold text-lg text-green-400 font-nunito_sans">
               {/* ADDRESS */}
               Alamat
             </h4>
@@ -57,21 +57,21 @@ const Footer = () => {
           </div>
 
           <div className="space-y-5 col-start-1 col-end-3 md:col-start-auto md:col-end-auto">
-            <h4 className="font-semibold text-lg">
+            <h4 className="font-bold text-lg text-green-400 font-nunito_sans">
               {/* CONTACT */}
               Kontak
-            </h4>
+            </h4> 
             <ul className="space-y-1 text-sm">
               <li className="flex justify-center items-center gap-2">
                 <BsFillTelephoneFill />
-                +62-21-489-1137
+                +62-090-9090
               </li>
               <li className="flex justify-center items-center gap-2">
                 <MdEmail />
-                admin@geomuda.id
+                admin@iyelloremmm
               </li>
               <li className="flex justify-center items-center gap-3 text-2xl pt-2">
-                <Link href="https://www.instagram.com/geomuda.id/" target="_blank">
+                <Link href="" target="_blank">
                   <RiInstagramFill />
                 </Link>
                 <Link href="#">
@@ -88,7 +88,7 @@ const Footer = () => {
         <div className="py-[1px] bg-[#DADADA] my-8"></div>
 
         <div>
-          <p className="font-medium text-sm text-center">© 2023 Asosiasi Geomuda Indonesia. All rights reserved</p>
+          <p className="font-medium text-sm text-left text-green-600">© 2024 Asosiasi Indonesian Youth Economic Leaders. All rights reserved</p>
         </div>
       </div>
 

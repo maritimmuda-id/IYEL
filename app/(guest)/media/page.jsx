@@ -9,8 +9,8 @@ const Media = () => {
     <div>
       <Banner
         image={"/images/media.png"}
-        title="MEDIA GEOMUDA"
-        subtitle="Asosiasi Geomuda Indonesia"
+        title="MEDIA IYEL"
+        subtitle="Indonesian Youth Economic Leaders"
       />
       <div className="-mt-24 flex flex-col justify-center items-center">
         <div className="flex flex-wrap justify-evenly lg:justify-start text-sm lg:text-base space-x-4 lg:space-x-12 text-white ml-0">
@@ -34,7 +34,7 @@ const Media = () => {
                 {data.description}
               </p>
               <div className="flex justify-between">
-                <Image src={assets.logoGmiDefault} className="w-10"></Image>
+                <Image src={assets.logoIyel} className="w-10"></Image>
                 <p className="uppercase">1 Min Read</p>
               </div>
             </div>

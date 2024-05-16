@@ -43,10 +43,10 @@ const Navbar = () => {
   return (
     <>
       <nav
-        className={`flex fixed z-50 top-0 w-full text-white items-center justify-between flex-row-reverse md:flex-row md:justify-center py-2 px-10 md:gap-12 xl:gap-28 ${
+        className={`flex fixed z-50 top-0 w-full text-black items-center font-nunito_sans font-bold justify-between flex-row-reverse md:flex-row md:justify-center py-2 px-10 md:gap-12 xl:gap-28 ${
           scroll > 0
-            ? "bg-gray-900 z-50 transition duration-1000"
-            : "bg-transparent duration-500"
+            ? "bg-black text-white z-50 transition duration-1000"
+            : "bg-white duration-500"
         }`}
       >
         <div className="md:basis-5/12">
@@ -55,7 +55,7 @@ const Navbar = () => {
               item.lists ? (
                 <div key={item.name} className="relative">
                   <div onClick={() => setDropdown(!dropdown)}>
-                    <div className="flex gap-2 items-center hover:text-red-400 cursor-pointer md:text-sm lg:text-base">
+                    <div className="flex gap-2 items-center hover:text-blue-400 cursor-pointer md:text-sm lg:text-base">
                       <h1>
                         {/* About Us */}
                         Tentang
@@ -72,7 +72,7 @@ const Navbar = () => {
                   {dropdown && (
                     <div
                       key={item.lists.name}
-                      className="absolute flex flex-col gap-4 bg-[#111827] mt-11 w-56 rounded-md px-5 py-8 -z-10 text-sm"
+                      className="absolute flex flex-col gap-4 bg-white mt-11 w-56 rounded-md px-5 py-8 -z-10 text-sm"
                     >
                       {item.lists.map((dropdownItem, index) => (
                         <Link
@@ -110,7 +110,7 @@ const Navbar = () => {
                   key={item.name}
                   onClick={() => setDropdown(false)}
                   href={item.location}
-                  className="cursor-pointer hover:text-red-400 rounded-xl md:text-sm lg:text-base"
+                  className="cursor-pointer hover:text-blue-400 rounded-xl md:text-sm lg:text-base"
                 >
                   {item.name}
                 </Link>
@@ -132,9 +132,9 @@ const Navbar = () => {
         </div>
 
         <Image
-          src={scroll > 0 ? assets.logoGmiTextWhite : assets.logoGmiWhite}
+          src={scroll > 0 ? assets.logoIyel : assets.logoIyel}
           className="md:block w-24 md:w-28 md:px-2 lg;:px-1 basis-1/12 ease-in duration-150 transition"
-          alt="logo geomuda indonesia white"
+          alt="logo indonesian youth economic leader"
         />
 
         <div className="hidden md:flex items-center justify-start gap-[10%] basis-5/12">
@@ -143,7 +143,7 @@ const Navbar = () => {
               href={item.location}
               key={item.name}
               onClick={() => setDropdown(false)}
-              className=" cursor-pointer py-2 hover:text-red-400 rounded-xl md:text-sm lg:text-base"
+              className=" cursor-pointer py-2 hover:text-blue-400 rounded-xl md:text-sm lg:text-base"
             >
               {item.name}
             </Link>

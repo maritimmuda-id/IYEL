@@ -6,9 +6,9 @@ const PenasihatPage = () => {
   return (
     <div>
       <Banner
-        image={"/images/dewan.png"}
+        image={"/images/pengurus.jpg"}
         title="Dewan Pengawas"
-        subtitle="Asosiasi Geomuda Indonesia"
+        subtitle="Indonesian Youth Economic Leaders"
       />
 
       <Pengawas />

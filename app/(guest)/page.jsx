@@ -8,8 +8,8 @@ const LandingPage = () => {
   return (
     <main>
       <Banner
-        image={"/images/beranda.png"}
-        title="Asosiasi Geomuda Indonesia"
+        image={"/images/banner.jpg"}
+        title="Indonesian Youth Economic Leaders"
         buttonTitle="Bergabung Dengan Kami"
         to="/login"
       />

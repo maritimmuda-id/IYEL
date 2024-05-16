@@ -1,5 +1,5 @@
 // Landing Page
-import banner from "./landing-page/coverbaru.svg";
+import banner from "./landing-page/banner.svg";
 import banner2 from "./landing-page/banner2.svg";
 import program1 from "./landing-page/program1.svg";
 import program2 from "./landing-page/program2.svg";
@@ -10,7 +10,8 @@ import logoGmi from "./landing-page/logo-gmi.svg";
 import logoGmiWhite from "./landing-page/logo-gmi-white.svg";
 import logoGmiTextWhite from "./landing-page/logo-gmi-text-white.svg";
 import logoGmiDefault from "./landing-page/logo-gmi-default.svg";
-import aboutContent from "./landing-page/aboutContent.svg";
+import logoIyel from "./landing-page/logo-iyel.png";
+import aboutContent from "./landing-page/5385937.svg";
 import aboutContent2 from "./landing-page/aboutContent2.svg";
 import poweredBackground from "./landing-page/powered-bg.svg";
 import sideImage from "./auth/side-image.jpg";
@@ -85,4 +86,5 @@ export default {
   ttd,
   peopleKta,
   gmiGlobalNetworks,
+  logoIyel
 };

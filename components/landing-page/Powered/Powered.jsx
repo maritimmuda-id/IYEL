@@ -7,7 +7,7 @@ import Image from "next/image";
 const Powered = () => {
   return (
     <div>
-      <Image
+      {/* <Image
         src={assets.poweredBackground}
         alt="great canyon black and white colour"
         className="w-full h-[500px] object-cover object-center"
@@ -21,7 +21,7 @@ const Powered = () => {
           src={assets.logoMaritim}
           alt="Logo maritim muda"
         />
-      </div>
+      </div> */}
     </div>
   );
 };

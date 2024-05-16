@@ -20,8 +20,8 @@ const Pengurus = () => {
               className="mx-auto aspect-[3/4] w-full"
             />
             <div className="text-center py-6 space-y-2">
-              <h6 className="text-lg md:text-xl font-semibold">{data.name}</h6>
-              <p className="py-1">{data.position}</p>
+              <h6 className="text-lg md:text-xl font-bold text-orange-600 font-poppins">{data.name}</h6>
+              <p className="py-1 font-nunito_sans">{data.position}</p>
             </div>
           </div>
         ))}
