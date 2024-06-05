@@ -20,20 +20,20 @@ const About = () => {
           className="w-[60%] md:w-[35%] mx-auto"
         />
         <p className="text-center md:text-left md:text-xl font-nunito_sans">
-          Indonesian Youth Economic Leader dibentuk pada tanggal xx Desember 20xx di Jakarta.
+        Indonesian Youth Economic Leaders diinisiasi dan dibentuk oleh para alumni Youth Economic Leadership Program 2023 yang diselenggarakan oleh BI Institute, pada tanggal 9 Juli 2023.
         </p>
       </div>
 
-      {/* <div className="flex flex-col md:flex-row-reverse md:px-32 justify-center items-center gap-10 md:gap-20">
+      <div className="flex flex-col md:flex-row-reverse md:px-32 justify-center items-center gap-10 md:gap-20">
         <Image
           src={assets.aboutContent2}
           alt="tree"
           className="w-[75%] md:w-[60%] mx-auto"
         />
         <p className="text-center md:text-left md:text-xl font-nunito_sans">
-          Lorem 111 ipsum dolor sit amet consectetur adipisicing elit. Accusamus eos, inventore quisquam alias minus corrupti ut porro asperiores mollitia iusto officiis, placeat veritatis voluptate. Maxime vero excepturi atque unde voluptates..
+        Asosiasi kepemudaan ekonomi ini bersifat mandiri, berwawasan kebangsaan, dan ekonomi berkelanjutan sesuai Undang-Undang Dasar Negara Republik Indonesia Tahun 1945, dan tidak berafiliasi ke partai politik.
         </p>
-      </div> */}
+      </div>
     </div>
   );
 };

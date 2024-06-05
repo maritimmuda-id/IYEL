@@ -3,23 +3,23 @@ import assets from "@/assets/assets";
 export const programs = [
   {
     image: assets.program1,
-    title: "Lorem ipsum dolor sit amet consectetur adipisicing." ,
+    title: "Knowledge Development" ,
     alt: "research",
   },
   {
     image: assets.program2,
     title:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas.",
+      "Experience Enhancement",
     alt: "cleaning beach",
   },
   {
     image: assets.program3,
-    title: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam, recusandae!",
+    title: "Resource Sharing",
     alt: "cleaning beach",
   },
   {
     image: assets.program4,
-    title: "sit amet, consectetur adipisicing elit.",
+    title: "Networking Expansion",
     alt: "cleaning beach",
   },
 ];

@@ -1,5 +1,6 @@
 // ** Import Components
 import About from "@/components/landing-page/About/About";
+import Activity from "@/components/landing-page/Activity/Activity";
 import Banner from "@/components/landing-page/Banner/Banner";
 import Powered from "@/components/landing-page/Powered/Powered";
 import Program from "@/components/landing-page/Program/Program";
@@ -17,6 +18,8 @@ const LandingPage = () => {
       <About />
 
       <Program />
+
+      <Activity />
 
       <div className="relative">
         <Powered />
