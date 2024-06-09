@@ -26,7 +26,6 @@ import maleProfile from "./landing-page/male-profile.jpg";
 import femaleProfile from "./landing-page/female-profile.jpg";
 import redondoImage from "./landing-page/redondo.png";
 import naufalImage from "./landing-page/naufal.jpg";
-import kaisarImage from "./landing-page/Kaisar1.png";
 import khalifImage from "./landing-page/khalif.jpg";
 import khalifRemoveBg from "./landing-page/khalif-removebg.png";
 import adityaImage from "./landing-page/aditya.jpg";
@@ -36,6 +35,17 @@ import sejarah1 from "./landing-page/sejarah1.svg";
 import sejarah2 from "./landing-page/sejarah2.svg";
 import sejarah3 from "./landing-page/sejarah3.svg";
 import gmiGlobalNetworks from "./auth/gmi-global-network.png";
+
+// Pengurus IYEL
+import kaisarImage from "./landing-page/Kaisar1.png";
+import endangImage from "./landing-page/Endang_Dzunuraini.png";
+import azizahImage from "./landing-page/azizah_fauziah.jpeg";
+import nazriImage from "./landing-page/Nazri.jpg";
+import dwiImage from "./landing-page/Dwi_grawana_chalista.jpg";
+import julianImage from "./landing-page/julian_gums.jpg";
+import hananImage from "./landing-page/Hanan_Syauqy.png";
+import roikhanatunImage from "./landing-page/Roikhanatun.jpg";
+
 
 // ** Import KTA
 import bannerKta from "./kta/banner-kta.svg";
@@ -65,7 +75,20 @@ export default {
   maleProfile,
   femaleProfile,
   redondoImage,
+
+  // Pengurus IYEL
   kaisarImage,
+  endangImage,
+  azizahImage,
+  nazriImage,
+  dwiImage,
+  julianImage,
+  hananImage,
+  roikhanatunImage,
+
+
+
+
   naufalImage,
   khalifImage,
   khalifRemoveBg,
