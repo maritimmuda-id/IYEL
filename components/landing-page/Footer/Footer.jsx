@@ -68,7 +68,7 @@ const Footer = () => {
               </li>
               <li className="flex justify-center items-center gap-2">
                 <MdEmail />
-                admin@iyelloremmm
+                iyeleaders@gmail.com
               </li>
               <li className="flex justify-center items-center gap-3 text-2xl pt-2">
                 <Link href="" target="_blank">
