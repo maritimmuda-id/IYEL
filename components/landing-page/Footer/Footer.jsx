@@ -50,9 +50,9 @@ const Footer = () => {
               Alamat
             </h4>
             <p className="text-sm">
-              Indonesia Blue Economy Center Kampus C STIE Indonesia
-              <br />Kel. Rawamangun, Kec. Pulo Gadung,
-              Jakarta 13220
+            Indonesia Blue Economy Center Kampus C STIE Indonesia
+              <br />Jalan Pratekan No. 9A, Rawamangun Pulo Gadung, Jakarta 13220
+
             </p>
           </div>
 
