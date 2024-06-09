@@ -19,10 +19,9 @@ const BannerAbout = () => {
             TENTANG KAMI
           </h5>
           <p className="mx-auto md:mx-0 max-w-2xl text-center md:text-left text-base md:text-lg lg:text-xl tracking-wide">
-            Asosiasi Geomuda dibentuk pada tanggal 22-12-2022, dengan fokus
-            utama pada penyiapan sumber daya manusia bidang kebumian yang
-            profesional, berjiwa kepemimpinan, cinta tanah air, berdaya -saing
-            global, dan memiliki kepedulian sosial.
+            Asosiasi IYEL dibentuk pada tanggal 09-07-2023, dengan fokus
+            utama pada penyiapan sumber daya manusia bidang ekonomi yang
+            profesional, berjiwa kepemimpinan dan cinta tanah air.
           </p>
         </div>
       </div>
