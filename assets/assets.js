@@ -1,20 +1,6 @@
-// Landing Page
+// Batas Pembuka Import Banner
 import banner from "./landing-page/banner.svg";
 import banner2 from "./landing-page/banner2.svg";
-import program1 from "./landing-page/program1.svg";
-import program2 from "./landing-page/program2.svg";
-import program3 from "./landing-page/program3.svg";
-import program4 from "./landing-page/program4.svg";
-import logoMaritim from "./landing-page/logo-maritim.svg";
-import logoGmi from "./landing-page/logo-gmi.svg";
-import logoGmiWhite from "./landing-page/logo-gmi-white.svg";
-import logoGmiTextWhite from "./landing-page/logo-gmi-text-white.svg";
-import logoGmiDefault from "./landing-page/logo-gmi-default.svg";
-import logoIyel from "./landing-page/logo-iyel.png";
-import aboutContent from "./landing-page/5385937.svg";
-import aboutContent2 from "./landing-page/aboutContent2.svg";
-import poweredBackground from "./landing-page/powered-bg.svg";
-import sideImage from "./auth/side-image.jpg";
 import banner3 from "./landing-page/aboutus.svg";
 import banner4 from "./landing-page/banner4.svg";
 import banner5 from "./landing-page/nawa.svg";
@@ -22,21 +8,38 @@ import banner6 from "./landing-page/lambang.svg";
 import banner7 from "./landing-page/tebing1.svg";
 import banner8 from "./landing-page/tebing2.svg";
 import banner9 from "./landing-page/tebing3.svg";
-import maleProfile from "./landing-page/male-profile.jpg";
-import femaleProfile from "./landing-page/female-profile.jpg";
-import redondoImage from "./landing-page/redondo.png";
-import naufalImage from "./landing-page/naufal.jpg";
-import khalifImage from "./landing-page/khalif.jpg";
-import khalifRemoveBg from "./landing-page/khalif-removebg.png";
-import adityaImage from "./landing-page/aditya.jpg";
-import aliImage from "./landing-page/waketum2.png";
-import defaultImage from "./landing-page/default-image.jpg";
+// Batas Penutup Banner
+
+// Batas Pembuka Import Program
+import program1 from "./landing-page/program1.svg";
+import program2 from "./landing-page/program2.svg";
+import program3 from "./landing-page/program3.svg";
+import program4 from "./landing-page/program4.svg";
+// Batas Penutup Import Program
+
+// Batas Pembuka Import Sejarah
 import sejarah1 from "./landing-page/sejarah1.svg";
 import sejarah2 from "./landing-page/sejarah2.svg";
 import sejarah3 from "./landing-page/sejarah3.svg";
-import gmiGlobalNetworks from "./auth/gmi-global-network.png";
+// Batas Penutup Import Sejarah
 
-// Pengurus IYEL
+// Batas Pembuka Import Aset Pendukung
+import maleProfile from "./landing-page/male-profile.jpg";
+import femaleProfile from "./landing-page/female-profile.jpg";
+import defaultImage from "./landing-page/default-image.jpg";
+// import logoMaritim from "./landing-page/logo-maritim.svg";
+// import logoGmi from "./landing-page/logo-gmi.svg";
+// import logoGmiWhite from "./landing-page/logo-gmi-white.svg";
+// import logoGmiTextWhite from "./landing-page/logo-gmi-text-white.svg";
+// import logoGmiDefault from "./landing-page/logo-gmi-default.svg";
+import logoIyel from "./landing-page/logo-iyel.png";
+import aboutContent from "./landing-page/5385937.svg";
+import aboutContent2 from "./landing-page/aboutContent2.svg";
+import poweredBackground from "./landing-page/powered-bg.svg";
+import sideImage from "./auth/side-image.jpg";
+// Batas Penutup Import Aset Pendukung
+
+// Batas Pembuka Import Pengurus IYEL
 import kaisarImage from "./landing-page/Kaisar1.png";
 import endangImage from "./landing-page/Endang_Dzunuraini.png";
 import azizahImage from "./landing-page/azizah_fauziah.jpeg";
@@ -45,38 +48,68 @@ import dwiImage from "./landing-page/Dwi_grawana_chalista.jpg";
 import julianImage from "./landing-page/julian_gums.jpg";
 import hananImage from "./landing-page/Hanan_Syauqy.png";
 import roikhanatunImage from "./landing-page/Roikhanatun.jpg";
+import faustinaImage from "./landing-page/Faustina_Prima.jpeg";
+import fitrawanImage from "./landing-page/Fitrawan_Mufly_Haskari.jpg";
+import heruImage from "./landing-page/heru_saoping.jpg";
+import christoforusImage from "./landing-page/Bello_Puyanggana.png";
+import mutiaraImage from "./landing-page/Mutiara_Eka.jpg";
+import salmanImage from "./landing-page/SALMAN_AL_MUHAMADI.jpg";
+import isauraImage from "./landing-page/Isaura_Qinthara.jpg";
+import ilhamImage from "./landing-page/Muhammad_Ilham.jpg";
+ // Batas Penutup Import Pengurus IYEL
 
-
-// ** Import KTA
+// Batas Pembuka Import KTA
 import bannerKta from "./kta/banner-kta.svg";
 import logoKta from "./kta/logo-kta.svg";
 import qr from "./kta/qr.svg";
 import ttd from "./kta/ttd.svg";
 import peopleKta from "./kta/people-kta.svg";
+// Batas Penutup Import KTA
 
 export default {
+
+  // Batas Pembuka Banner
   banner,
   banner2,
+  banner3,
+  banner4,
+  banner5,
+  banner6,
+  banner7,
+  banner8,
+  banner9,
+  // Batas Penutup Banner
+ 
+  // Batas Pembuka Program
   program1,
   program2,
   program3,
   program4,
-  logoGmi,
-  logoGmiWhite,
-  logoGmiTextWhite,
-  logoMaritim,
-  logoGmiDefault,
+  // Batas Penutup Program
+
+  // Batas Pembuka Sejarah
+  sejarah1,
+  sejarah2,
+  sejarah3,
+  // Batas Penutup Sejarah
+
+  // Pembuka Aset Pendukung
+  // logoGmi,
+  // logoGmiWhite,
+  // logoGmiTextWhite,
+  // logoMaritim,
+  // logoGmiDefault,
   aboutContent,
   aboutContent2,
   poweredBackground,
-  banner3,
   sideImage,
-  banner4,
   maleProfile,
   femaleProfile,
-  redondoImage,
+  defaultImage,
+  logoIyel,
+  // Penutup Aset Pendukung
 
-  // Pengurus IYEL
+  // Batas Pembuka Pengurus IYEL
   kaisarImage,
   endangImage,
   azizahImage,
@@ -85,29 +118,22 @@ export default {
   julianImage,
   hananImage,
   roikhanatunImage,
+  faustinaImage,
+  fitrawanImage,
+  heruImage,
+  christoforusImage,
+  mutiaraImage,
+  salmanImage,
+  isauraImage,
+  ilhamImage,
+  // Batas Penutup Pengurus IYEL
 
-
-
-
-  naufalImage,
-  khalifImage,
-  khalifRemoveBg,
-  adityaImage,
-  aliImage,
-  defaultImage,
-  sejarah1,
-  sejarah2,
-  sejarah3,
-  banner5,
-  banner6,
-  banner7,
-  banner8,
-  banner9,
+  // Batas Pembuka KTA
   bannerKta,
   logoKta,
   qr,
   ttd,
   peopleKta,
-  gmiGlobalNetworks,
-  logoIyel
+  // Batas Penutup KTA
+
 };
