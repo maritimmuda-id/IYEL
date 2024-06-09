@@ -6,10 +6,7 @@ const AboutUs = () => {
           VISI
         </h1>
         <p className="font-medium text-lg md:text-xl tracking-wide text-center text-white">
-            Visi Asosiasi ini ialah menjadikan pemuda sebagai garda terdepan
-            dalam mewujudkan Indonesia Maju dan Mandiri berbasis sumber daya
-            alam, bumi, air, dan energi dengan pendekatan pembangunan
-            berkelanjutan.
+        Visi Asosiasi ini ialah Terciptanya organisasi yang mampu meningkatkan kapasitas pemimpin muda ekonomi yang mumpuni dan berdaya saing guna membangun kemajuan dan keberlanjutan Indonesia
           </p>
       </div>
 
@@ -26,21 +23,21 @@ const AboutUs = () => {
               <div className="space-y-5">
                 <div className="text-xl md:text-2xl rounded-full bg-[#7B2418] aspect-square w-14 md:w-16 text-white mx-auto flex justify-center items-center">1</div>
                 <p>
-                  Mengembangkan ilmu pengetahuan dan teknologi kebumian yang mutakhir, efektif, efisien, dan ramah lingkungan.
+                Menyiapkan pemimpin-pemimpin muda ekonomi yang profesional, berdaya saing global, beretika, berdedikasi, dan mampu mengedepankan kepentingan nasional
                 </p>
               </div>
 
               <div className="space-y-5">
                 <div className="text-xl md:text-2xl rounded-full bg-[#7B2418] aspect-square w-14 md:w-16 text-white mx-auto flex justify-center items-center">2</div>
                 <p>
-                  Menyiapkan sumber daya manusia bidang kebumian yang profesional, berjiwa kepemimpinan, cinta tanah air, berdaya saing global, dan memiliki kepedulian sosial.
+                Mengembangkan ilmu pengetahuan dan teknologi bisnis yang mutakhir, efektif, efisien, dan ramah lingkungan
                 </p>
               </div>
               
               <div className="space-y-5 md:col-start-1 md:col-end-3 lg:col-start-3 lg:col-end-4">
                 <div className="text-xl md:text-2xl rounded-full bg-[#7B2418] aspect-square w-14 md:w-16 text-white mx-auto flex justify-center items-center">3</div>
                 <p>
-                  Menguatkan budaya ramah lingkungan dan pemanfaatan sumber daya alam berkelanjutan.
+                Menguatkan budaya bisnis berkelanjutan
                 </p>
               </div>
             </div>
