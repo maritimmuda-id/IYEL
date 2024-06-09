@@ -33,7 +33,7 @@ export const administrators = [
   },
   {
     image: assets.hananImage,
-    name: "Hanan_Syauqy",
+    name: "Hanan Syauqy",
     position: "Direktur Ekonomi Kesehatan",
   },
   {
@@ -41,6 +41,45 @@ export const administrators = [
     name: "Roikhanatun Nafi'ah",
     position: "Direktur Ekonomi Biru",
   },
-  
+  {
+    image: assets.faustinaImage,
+    name: "Faustina Martha",
+    position: "Sekretaris Pusat Inovasi Bisnis Berkelanjutan",
+  },
+  {
+    image: assets.fitrawanImage,
+    name: "Fitrawan Mufly Haskari",
+    position: "Sekjen",
+  },
+  {
+    image: assets.heruImage,
+    name: "Heru Saoping",
+    position: "Pusat Inovasi",
+  },
+  {
+    image: assets.christoforusImage,
+    name: "Christoforus Kalo Bello Puyanggana",
+    position: "WASEKJEN Ekonomi Kesehatan",
+  },
+  {
+    image: assets.mutiaraImage,
+    name: "Mutiara Eka Puspita",
+    position: "Wakil pusat inovasi dan inkubasi bisnis teknologi",
+  },
+  {
+    image: assets.salmanImage,
+    name: "Salman Al Muhamadi",
+    position: "Wakil ketua ekonomi biru",
+  },
+  {
+    image: assets.isauraImage,
+    name: "Isaura Qinthara Heriswan",
+    position: "Wakil Bendahara Umum",
+  },
+  {
+    image: assets.ilhamImage,
+    name: "Muhammad Ilham ",
+    position: "Sekretaris Pusat Informasi dan Kerjasama",
+  },
 
 ];
