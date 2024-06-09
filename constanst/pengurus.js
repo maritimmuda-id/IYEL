@@ -14,7 +14,7 @@ export const administrators = [
   {
     image: assets.azizahImage,
     name: "Azizah Fauziah Misbahuddin",
-    position: "Direktur ekononomi digital",
+    position: "Direktur Ekononomi Digital",
   },
   {
     image: assets.nazriImage,
@@ -59,17 +59,17 @@ export const administrators = [
   {
     image: assets.christoforusImage,
     name: "Christoforus Kalo Bello Puyanggana",
-    position: "WASEKJEN Ekonomi Kesehatan",
+    position: "Wasekjen Ekonomi Kesehatan",
   },
   {
     image: assets.mutiaraImage,
     name: "Mutiara Eka Puspita",
-    position: "Wakil pusat inovasi dan inkubasi bisnis teknologi",
+    position: "Wakil Pusat Inovasi dan Inkubasi Bisnis Teknologi",
   },
   {
     image: assets.salmanImage,
     name: "Salman Al Muhamadi",
-    position: "Wakil ketua ekonomi biru",
+    position: "Wakil Ketua Ekonomi Biru",
   },
   {
     image: assets.isauraImage,
