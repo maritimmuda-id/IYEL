@@ -20,7 +20,7 @@ const Footer = () => {
             <Image
               src={assets.logoIyel}
               className="w-28 -mt-2 md:-mt-9 mx-auto md:mx-0"
-              alt="logo geomuda indonesia text white"
+              alt="logo iyel indonesia text white"
               />
             <h4 className="font-bold text-xl text-center md:text-left text-green-400 font-nunito_sans">INDONESIAN YOUTH ECONOMIC LEADERS</h4>
             <p className="text-sm text-center md:text-left font-nunito_sans">Organisasi Pemimpin Ekonomi</p>

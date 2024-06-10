@@ -109,7 +109,7 @@ export default function FormLogin() {
       />
       <button
         type="submit"
-        className="bg-[#7B2418] text-white rounded-xl p-2 mb-4"
+        className="bg-blue-400 text-white rounded-xl p-2 mb-4"
       >
         {loading ? <Loading /> : "Login"}
       </button>

@@ -158,9 +158,9 @@ const Navbar = () => {
         }`}
       >
         <Image
-          src={assets.logoGmiWhite}
+          src={assets.logoIyel}
           className="w-24"
-          alt="logo geomuda indonesia white"
+          alt="logo iyel"
         />
 
         <div className="space-y-6 text-white px-2">

@@ -13,9 +13,9 @@ const RegisterPage = () => {
     <div className="lg:basis-8/12 w-full px-10 lg:p-0">
       <div className="p-6 md:p-10 max-w-2xl shadow-2xl rounded-xl bg-slate-50 mx-auto">
         <Image
-          src={assets.gmiGlobalNetworks}
+          src={assets.logoIyel}
           className="w-40 mx-auto"
-          alt="logo geomuda indonesia"
+          alt="logo iyel"
         />
         <h2 className="text-xl text-center my-5 font-semibold py-4">Register</h2>
 
