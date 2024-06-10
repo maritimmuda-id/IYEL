@@ -110,7 +110,7 @@ const ChangePassword = () => {
         </div>
         <button
           type="submit"
-          className="bg-[#7B2418] text-white p-2 rounded-lg w-full"
+          className="bg-[#21ADEB] text-white p-2 rounded-lg w-full"
         >
           {loading ? "Loading..." : "Simpan"}
         </button>

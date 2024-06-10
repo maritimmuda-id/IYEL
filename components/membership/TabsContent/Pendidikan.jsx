@@ -69,7 +69,7 @@ export default function Pendidikan({ data }) {
       <div className="flex justify-between items-center mb-10">
         <h2 className="text-xl font-medium">Daftar Riwayat Pendidikan</h2>
         <button
-          className="flex justify-between items-center bg-[#7B2418] p-2 rounded-md space-x-2 text-white"
+          className="flex justify-between items-center bg-[#21ADEB] p-2 rounded-md space-x-2 text-white"
           onClick={setEducation}
         >
           <AiOutlinePlus className="text-sm" />

@@ -49,13 +49,13 @@ const NavLeft = () => {
     <div className="basis-1/6 bg-[#F1F1F1] py-4 h-screen space-y-10">
       <div className="py-8 space-y-4">
         <Image src={assets.logoGmiDefault} className="w-4/6 mx-auto"></Image>
-        <h3 className="text-lg text-center">Geomuda Indonesia</h3>
+        <h3 className="text-lg text-center">Indonesian Youth Economic Leaders</h3>
       </div>
 
       <div className="space-y-4">
         <Link
           href="/dashboard"
-          className="p-4 flex justify-center items-center gap-4 hover:bg-[#7B2418] hover:text-white "
+          className="p-4 flex justify-center items-center gap-4 hover:bg-[#21ADEB] hover:text-white "
         >
           <MdMonitor className="text-2xl" />
           <p>Dashboard</p>
@@ -63,7 +63,7 @@ const NavLeft = () => {
 
         <Link
           href="/profile"
-          className="p-4 flex justify-center items-center gap-4 hover:bg-[#7B2418] hover:text-white"
+          className="p-4 flex justify-center items-center gap-4 hover:bg-[#21ADEB] hover:text-white"
         >
           <HiOutlineUser className="text-2xl" />
           <p>Profile</p>
@@ -71,7 +71,7 @@ const NavLeft = () => {
 
         <div
           onClick={handleLogout}
-          className="p-4 flex cursor-pointer justify-center items-center gap-4 hover:bg-[#7B2418] hover:text-white"
+          className="p-4 flex cursor-pointer justify-center items-center gap-4 hover:bg-[#21ADEB] hover:text-white"
         >
           <TbLogout2 className="text-2xl" />
           <p>Logout</p>

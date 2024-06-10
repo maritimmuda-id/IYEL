@@ -171,7 +171,7 @@ const ModalExperienceWork = () => {
 
           <button
             type="submit"
-            className="flex justify-between items-center gap-x-2 border-2 bg-[#7B2418] text-white p-2 rounded-lg"
+            className="flex justify-between items-center gap-x-2 border-2 bg-[#21ADEB] text-white p-2 rounded-lg"
           >
             <IoMdSave />
             <p className="text-sm">{loading ? "Loading..." : "Simpan"}</p>

@@ -200,7 +200,7 @@ const KTA = ({ user, kta }) => {
                 {!validate && (
                   <button
                     onClick={handleCekNik}
-                    className="bg-[#7B2418] text-white p-1 rounded-lg w-1/5"
+                    className="bg-[#21ADEB] text-white p-1 rounded-lg w-1/5"
                   >
                     Cek
                   </button>
@@ -210,7 +210,7 @@ const KTA = ({ user, kta }) => {
             <button
               disabled={!valid || !imageUpload || validate}
               onClick={handleSubmit}
-              className="bg-[#7B2418] text-white p-2 rounded-lg w-full disabled:cursor-not-allowed disabled:bg-gray-400"
+              className="bg-[#21ADEB] text-white p-2 rounded-lg w-full disabled:cursor-not-allowed disabled:bg-gray-400"
             >
               {loadingGenerate
                 ? "Loading..."

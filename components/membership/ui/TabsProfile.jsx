@@ -16,8 +16,8 @@ export default function TabsProfile() {
           onClick={() => setPosition(index)}
           key={index}
           className={`p-3 cursor-pointer px-6 border-2  ${
-            position === index ? "bg-[#7B2418] text-white" : "bg-[#f8f8f8]"
-          }  hover:bg-[#7B2418] hover:text-white ${
+            position === index ? "bg-[#21ADEB] text-white" : "bg-[#f8f8f8]"
+          }  hover:bg-[#21ADEB] hover:text-white ${
             index === 4 && "rounded-tr-xl"
           } ${index === 0 && "rounded-tl-xl"}`}
         >

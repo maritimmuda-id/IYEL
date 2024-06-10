@@ -11,7 +11,7 @@ const NavMember = ({ user }) => {
   const { open, setOpen } = useSidebar();
 
   return (
-    <div className="bg-[#7B2418] fixed top-0 w-full border-b border-gray-300  p-5 flex justify-between items-center px-10 z-10">
+    <div className="bg-[#21ADEB] fixed top-0 w-full border-b border-gray-300  p-5 flex justify-between items-center px-10 z-10">
       {open ? (
         <GiHamburgerMenu
           onClick={setOpen}

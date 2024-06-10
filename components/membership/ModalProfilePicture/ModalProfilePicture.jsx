@@ -96,7 +96,7 @@ const ModalProfilePicture = () => {
                 fill
               />
             </div>
-            <div className="text-red-800 text-xs">
+            <div className="text-[#21ADEB] text-xs">
               <h2 className="text-base font-medium text-black">Syarat :</h2>
               <ul>
                 <li>Ukuran gambar harus di bawah 1MB</li>
@@ -115,7 +115,7 @@ const ModalProfilePicture = () => {
           <button
             type="submit"
             onClick={handleUpload}
-            className="flex justify-between items-center gap-x-2 border-2 bg-[#7B2418] text-white p-2 rounded-lg"
+            className="flex justify-between items-center gap-x-2 border-2 bg-[#21ADEB] text-white p-2 rounded-lg"
           >
             <IoMdSave />
             <p className="text-sm">{loading ? "Loadign..." : "Simpan"}</p>

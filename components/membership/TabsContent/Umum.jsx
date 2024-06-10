@@ -115,8 +115,8 @@ export default function Umum({ countryData, user, provinceData }) {
           </div>
           <div>
             <h2 className="text-2xl font-semibold">{fullname}</h2>
-            <p className="text-lg text-[#7B2418] font-medium">
-              Anggota Biasa Geomuda Indonesia
+            <p className="text-lg text-[#21ADEB] font-medium">
+              Anggota Biasa Indonesian Youth Economic Leaders
             </p>
           </div>
         </div>
@@ -219,7 +219,7 @@ export default function Umum({ countryData, user, provinceData }) {
 
           <button
             type="submit"
-            className="col-start-1 col-end-3 bg-[#7B2418] text-white p-2 rounded-lg w-full"
+            className="col-start-1 col-end-3 bg-[#21ADEB] text-white p-2 rounded-lg w-full"
           >
             {loading ? "Loading..." : "Simpan"}
           </button>
