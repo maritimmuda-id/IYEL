@@ -9,6 +9,7 @@ const SambutanPage = () => {
         image={"/images/sambutan.jpg"}
         title="SAMBUTAN KETUA UMUM"
         subtitle="Indonesian Youth Economic Leaders"
+        className={"w-full h-screen object-cover object-center brightness-50 "}
       />
 
       <Sambutan />

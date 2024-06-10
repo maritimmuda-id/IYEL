@@ -13,6 +13,7 @@ const ActivityPage = () => {
         title="PROGRAM"
         buttonTitle="Home"
         to="/"
+        className={"w-full h-screen object-cover object-center brightness-50 "}
       />
 
       <article className="p-8 md:p-20 space-y-20">

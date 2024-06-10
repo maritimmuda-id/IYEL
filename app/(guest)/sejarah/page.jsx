@@ -8,6 +8,7 @@ const SejarahPage = () => {
         image={"/images/sejarah.jpg"}
         title="Sejarah Pendirian"
         subtitle="Indonesian Youth Economic Leaders"
+        className={"w-full h-screen object-cover object-center brightness-50 "}
       />
 
       <Sejarah />

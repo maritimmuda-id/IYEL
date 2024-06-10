@@ -11,6 +11,7 @@ const Media = () => {
         image={"/images/media.png"}
         title="MEDIA IYEL"
         subtitle="Indonesian Youth Economic Leaders"
+        className={"w-full h-screen object-cover object-center"}
       />
       <div className="-mt-24 flex flex-col justify-center items-center">
         <div className="flex flex-wrap justify-evenly lg:justify-start text-sm lg:text-base space-x-4 lg:space-x-12 text-white ml-0">

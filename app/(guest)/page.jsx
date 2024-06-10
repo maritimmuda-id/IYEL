@@ -12,6 +12,7 @@ const LandingPage = () => {
         image={"/images/banner.jpg"}
         title="Indonesian Youth Economic Leaders"
         buttonTitle="Bergabung Dengan Kami"
+        className={"w-full h-screen object-cover object-center brightness-50 "}
         to="/login"
       />
 

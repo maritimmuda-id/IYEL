@@ -9,6 +9,7 @@ const PenasihatPage = () => {
         image={"/images/pengurus.jpg"}
         title="Dewan Pengawas"
         subtitle="Indonesian Youth Economic Leaders"
+        className={"w-full h-screen object-cover object-center brightness-50 "}
       />
 
       <Pengawas />

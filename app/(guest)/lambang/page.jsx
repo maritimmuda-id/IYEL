@@ -9,6 +9,7 @@ const LambangPage = () => {
         image={"/images/lambang.png"}
         title="Lambang Organisasi"
         subtitle="Asosiasi Geomuda Indonesia"
+        className={"w-full h-screen object-cover object-center brightness-50 "}
       />
 
       <Lambang />

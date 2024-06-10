@@ -72,14 +72,14 @@ const Navbar = () => {
                   {dropdown && (
                     <div
                       key={item.lists.name}
-                      className="absolute flex flex-col gap-4 bg-white mt-11 w-56 rounded-md px-5 py-8 -z-10 text-sm"
+                      className="absolute flex flex-col gap-4 bg-gray-900 mt-11 w-56 rounded-md px-5 py-8 -z-10 text-sm"
                     >
                       {item.lists.map((dropdownItem, index) => (
                         <Link
                           key={index}
                           onClick={() => setDropdown(false)}
                           href={dropdownItem.location}
-                          className="cursor-pointer hover:text-red-400 rounded-xl"
+                          className="cursor-pointer hover:text-blue-400 rounded-xl"
                         >
                           {dropdownItem.name}
                         </Link>
@@ -98,7 +98,7 @@ const Navbar = () => {
                         key={index}
                         onClick={() => setDropdown(false)}
                         href={item.location}
-                        className="cursor-pointer hover:text-red-400 rounded-xl"
+                        className="cursor-pointer hover:text-blue-400 rounded-xl"
                       >
                         {item.name}
                       </Link>

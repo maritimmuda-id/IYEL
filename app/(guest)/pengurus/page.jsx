@@ -9,6 +9,7 @@ const PengurusPage = () => {
         image={"/images/pengurus2.jpg"}
         title="PENGURUS PUSAT"
         subtitle="Indonesian Youth Economic Leaders"
+        className={"w-full h-screen object-cover object-center brightness-50 "}
       />
 
       <Pengurus />

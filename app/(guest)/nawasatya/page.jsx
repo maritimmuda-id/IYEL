@@ -9,6 +9,7 @@ const NawasatyaPage = () => {
         image={"/images/nawasatya.png"}
         title="Nawa Satya"
         subtitle="Asosiasi Geomuda Indonesia"
+        className={"w-full h-screen object-cover object-center brightness-50 "}
       />
 
       <Nawasatya />

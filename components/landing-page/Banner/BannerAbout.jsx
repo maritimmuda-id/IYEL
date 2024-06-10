@@ -10,7 +10,7 @@ const BannerAbout = () => {
         width={1502}
         height={734}
         alt="banner"
-        className="w-full h-screen object-cover object-center"
+        className="w-full h-screen object-cover object-center brightness-50"
       />
 
       <div className="absolute z-10 mt-16 top-0 right-0 bottom-0 left-0 flex justify-center items-start text-white flex-col space-y-6">

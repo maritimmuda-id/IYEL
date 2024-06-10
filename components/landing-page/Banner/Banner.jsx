@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 const Banner = (props) => {
-  const { image, title, buttonTitle, to, subtitle } = props;
+  const { image, title, buttonTitle, to, subtitle, className } = props;
 
   const isHome = to === "/login";
 
@@ -14,21 +14,21 @@ const Banner = (props) => {
         alt="banner"
         width={1502}
         height={734}
-        className="w-full h-screen object-cover object-center brightness-50"
+        className={className}
         priority
       />
 
       <div
         className={`absolute mt-20 top-0 right-0 bottom-0 left-0 flex justify-center items-center text-white flex-col space-y-6 ${
           isHome ? "md:space-y-14" : "md:space-y-10"
-        } z-10`}
+        } `}
       >
         <div className="space-y-4  p-2 rounded-xl ">
           {/* keterangan */}
           <h5 className="text-3xl sm:text-4xl md:text-5xl text-center text-white font-bold uppercase font-poppins">
             {title}
           </h5>
-          
+
           {/* underline */}
           {/* <div
             className={`py-[1px] bg-white w-[20rem] md:w-[30rem] ${
@@ -37,7 +37,7 @@ const Banner = (props) => {
           ></div> */}
         </div>
 
-          {/* button kembali ke home */}
+        {/* button kembali ke home */}
         {/* {subtitle ? (
           <p className="text-xl md:text-3xl">{subtitle}</p>
         ) : (
