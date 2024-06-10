@@ -43,10 +43,10 @@ const Navbar = () => {
   return (
     <>
       <nav
-        className={`flex fixed z-50 top-0 w-full text-black items-center font-nunito_sans font-bold justify-between flex-row-reverse md:flex-row md:justify-center py-2 px-10 md:gap-12 xl:gap-28 ${
+        className={`flex fixed z-50 top-0 w-full text-white items-center font-nunito_sans font-bold justify-between flex-row-reverse md:flex-row md:justify-center py-2 px-10 md:gap-12 xl:gap-28 ${
           scroll > 0
-            ? "bg-black text-white z-50 transition duration-1000"
-            : "bg-white duration-500"
+            ? "bg-gray-900 text-white z-50 transition duration-1000"
+            : "bg-transparant duration-500"
         }`}
       >
         <div className="md:basis-5/12">

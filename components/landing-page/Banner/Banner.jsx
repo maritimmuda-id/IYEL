@@ -14,7 +14,7 @@ const Banner = (props) => {
         alt="banner"
         width={1502}
         height={734}
-        className="w-full h-screen object-cover object-center"
+        className="w-full h-screen object-cover object-center brightness-50"
         priority
       />
 
