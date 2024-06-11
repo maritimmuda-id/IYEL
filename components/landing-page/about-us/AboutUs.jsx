@@ -6,7 +6,7 @@ const AboutUs = () => {
           VISI
         </h1>
         <p className="font-medium text-lg md:text-xl tracking-wide text-center text-white">
-        Visi Asosiasi ini ialah Terciptanya organisasi yang mampu meningkatkan kapasitas pemimpin muda ekonomi yang mumpuni dan berdaya saing guna membangun kemajuan dan keberlanjutan Indonesia
+       Terciptanya organisasi yang mampu meningkatkan kapasitas pemimpin muda ekonomi yang mumpuni dan berdaya saing guna membangun kemajuan dan keberlanjutan Indonesia
           </p>
       </div>
 

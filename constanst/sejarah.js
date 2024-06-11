@@ -4,7 +4,7 @@ export const sejarah = [
   {
     image: assets.sejarah1,
     description:
-      "Indonesia Youth Economic Leaders yang biasa disebut IYEL, ialah organisasi kepemudaan nasional di bidang ekonomi dalam bentuk asosiasi. IYEL dibentuk pada tanggal 9 Juli 2023 di Jakarta oleh para alumni Indonesian Youth Economic Leadership  Program (YELP) 2023 yang terpanggil hati dan jiwanya untuk berbakti pada nusa dan bangsa melalui pembangunan ekonomi yang berkelanjutan yang diketuai oleh Kaisar Akhir.",
+      "Indonesia Youth Economic Leaders yang biasa disebut IYEL, ialah organisasi kepemudaan nasional di bidang ekonomi dalam bentuk asosiasi. IYEL dibentuk pada tanggal 9 Juli 2023 di Jakarta oleh para alumni Indonesian Youth Economic Leadership  Program (YELP) Bank Indonesia Institute 2023 yang terpanggil hati dan jiwanya untuk berbakti pada nusa dan bangsa melalui pembangunan ekonomi yang berkelanjutan yang diketuai oleh Kaisar Akhir.",
   },
   {
     image: assets.sejarah2,
