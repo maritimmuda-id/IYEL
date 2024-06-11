@@ -26,10 +26,10 @@ export const navItemsLeft = [
         name: "Pengurus",
         location: "/pengurus",
       },
-      {
-        name: "Dewan Pengawas",
-        location: "/pengawas",
-      },
+      // {
+      //   name: "Dewan Pengawas",
+      //   location: "/pengawas",
+      // },
       {
         name: "Nawa Satya",
         location: "/nawasatya",
