@@ -10,26 +10,26 @@ export const activities = [
     image: assets.program2,
     title:
       "Startup meeting",
-    alt: "cleaning beach",
+    alt: "Startup meeting",
   },
   {
-    image: assets.program3,
+    image: assets.aktivitas3,
     title: "Business coaching",
-    alt: "cleaning beach",
+    alt: "Business coaching",
   },
   {
-    image: assets.program4,
+    image: assets.aktivitas4,
     title: "Business incubation and acceleration",
-    alt: "cleaning beach",
+    alt: "Business incubation and acceleration",
   },
   {
-    image: assets.program4,
+    image: assets.aktivitas5,
     title: "Joint product research and development",
-    alt: "cleaning beach",
+    alt: "Joint product research and development",
   },
   {
     image: assets.program4,
     title: "SME Upgrading",
-    alt: "cleaning beach",
+    alt: "SME Upgrading",
   },
 ];
