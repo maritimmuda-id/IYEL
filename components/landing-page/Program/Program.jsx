@@ -21,7 +21,7 @@ const Program = () => {
               src={program.image}
               priority
               alt={program.alt}
-              className="w-2/3 md:w-full mx-auto"
+              className="w-2/3 md:w-full mx-auto rounded-lg"
             />
             <p className="text-center md:p-5">{program.title}</p>
           </div>

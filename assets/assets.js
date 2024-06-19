@@ -13,12 +13,17 @@ import banner9 from "./landing-page/tebing3.svg";
 // Batas Pembuka Import Program
 import program1 from "./landing-page/program1.svg";
 import program2 from "./landing-page/program2.svg";
-import program3 from "./landing-page/program2.svg";
+import program3 from "./landing-page/program3.svg";
 import program4 from "./landing-page/program4.svg";
 // Batas Penutup Import Program
 
 // Batas Pembuka Import Activity
-import activity1 from "./landing-page/activity1.jpg";
+import activity1 from "./landing-page/activity1.svg";
+import activity2 from "./landing-page/activity2.svg";
+import activity3 from "./landing-page/activity3.svg";
+import activity4 from "./landing-page/activity4.svg";
+import activity5 from "./landing-page/activity5.svg";
+import activity6 from "./landing-page/activity6.svg";
 // Batas Penutup Import Activity
 
 // Batas Pembuka Import Sejarah
@@ -91,7 +96,14 @@ export default {
   program4,
   // Batas Penutup Program
 
+  // Batas Pembuka aktivitas
   activity1,
+  activity2,
+  activity3,
+  activity4,
+  activity5,
+  activity6,
+  // Batas Penutup aktivitas
 
   // Batas Pembuka Sejarah
   sejarah1,
