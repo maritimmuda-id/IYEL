@@ -21,21 +21,21 @@ const AboutUs = () => {
 
             <div className="mx-5 py-20 md:py-32 tracking-wide grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-14 md:gap-8">
               <div className="space-y-5">
-                <div className="text-xl md:text-2xl rounded-full bg-[#7B2418] aspect-square w-14 md:w-16 text-white mx-auto flex justify-center items-center">1</div>
+                <div className="text-xl md:text-2xl rounded-full bg-[#21ADEB] aspect-square w-14 md:w-16 text-white mx-auto flex justify-center items-center">1</div>
                 <p>
                 Menyiapkan pemimpin-pemimpin muda ekonomi yang profesional, berdaya saing global, beretika, berdedikasi, dan mampu mengedepankan kepentingan nasional
                 </p>
               </div>
 
               <div className="space-y-5">
-                <div className="text-xl md:text-2xl rounded-full bg-[#7B2418] aspect-square w-14 md:w-16 text-white mx-auto flex justify-center items-center">2</div>
+                <div className="text-xl md:text-2xl rounded-full bg-[#21ADEB] aspect-square w-14 md:w-16 text-white mx-auto flex justify-center items-center">2</div>
                 <p>
                 Mengembangkan ilmu pengetahuan dan teknologi bisnis yang mutakhir, efektif, efisien, dan ramah lingkungan
                 </p>
               </div>
               
               <div className="space-y-5 md:col-start-1 md:col-end-3 lg:col-start-3 lg:col-end-4">
-                <div className="text-xl md:text-2xl rounded-full bg-[#7B2418] aspect-square w-14 md:w-16 text-white mx-auto flex justify-center items-center">3</div>
+                <div className="text-xl md:text-2xl rounded-full bg-[#21ADEB] aspect-square w-14 md:w-16 text-white mx-auto flex justify-center items-center">3</div>
                 <p>
                 Menguatkan budaya bisnis berkelanjutan
                 </p>
