@@ -13,17 +13,17 @@ export const activities = [
     alt: "Startup meeting",
   },
   {
-    image: assets.aktivitas3,
+    image: assets.program3,
     title: "Business coaching",
     alt: "Business coaching",
   },
   {
-    image: assets.aktivitas4,
+    image: assets.program4,
     title: "Business incubation and acceleration",
     alt: "Business incubation and acceleration",
   },
   {
-    image: assets.aktivitas5,
+    image: assets.program2,
     title: "Joint product research and development",
     alt: "Joint product research and development",
   },

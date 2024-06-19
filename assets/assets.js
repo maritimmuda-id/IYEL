@@ -11,9 +11,9 @@ import banner9 from "./landing-page/tebing3.svg";
 // Batas Penutup Banner
 
 // Batas Pembuka Import Program
-import program1 from "./landing-page/program1.jpg";
-import program2 from "./landing-page/program2.jpg";
-import program3 from "./landing-page/program3.svg";
+import program1 from "./landing-page/program1.svg";
+import program2 from "./landing-page/program2.svg";
+import program3 from "./landing-page/program2.svg";
 import program4 from "./landing-page/program4.svg";
 // Batas Penutup Import Program
 
