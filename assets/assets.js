@@ -17,19 +17,9 @@ import program3 from "./landing-page/program3.svg";
 import program4 from "./landing-page/program4.svg";
 // Batas Penutup Import Program
 
-<<<<<<< HEAD
 // Batas Pembuka Import Activity
 import activity1 from "./landing-page/activity1.jpg";
 // Batas Penutup Import Activity
-=======
-// Batas Pembuka Import Aktivitas
-// import aktivitas1 from "./landing-page/aktivitas1.jpg";
-// import aktivitas2 from "./landing-page/aktivitas2.jpg";
-import aktivitas3 from "./landing-page/aktivitas3.svg";
-import aktivitas4 from "./landing-page/aktivitas4.svg";
-import aktivitas5 from "./landing-page/aktivitas5.jpg";
-// Batas Penutup Import Program
->>>>>>> a8d8143c75d171cce224899e1cf39bf028aad302
 
 // Batas Pembuka Import Sejarah
 import sejarah1 from "./landing-page/sejarah1.svg";
@@ -101,17 +91,7 @@ export default {
   program4,
   // Batas Penutup Program
 
-<<<<<<< HEAD
   activity1,
-=======
-// Batas Pembuka Program
-  // aktivitas1,
-  // aktivitas2,
-  aktivitas3,
-  aktivitas4,
-  aktivitas5,
-// Batas Penutup Program
->>>>>>> a8d8143c75d171cce224899e1cf39bf028aad302
 
   // Batas Pembuka Sejarah
   sejarah1,
