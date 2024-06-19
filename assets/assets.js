@@ -45,7 +45,7 @@ import logoIyel from "./landing-page/logo-iyel.png";
 import aboutContent from "./landing-page/5385937.svg";
 import aboutContent2 from "./landing-page/aboutContent2.svg";
 import poweredBackground from "./landing-page/powered-bg.svg";
-import sideImage from "./auth/side-image.jpg";
+import sideImage from "./auth/side-image.png";
 // Batas Penutup Import Aset Pendukung
 
 // Batas Pembuka Import Pengurus IYEL
