@@ -17,6 +17,10 @@ import program3 from "./landing-page/program3.svg";
 import program4 from "./landing-page/program4.svg";
 // Batas Penutup Import Program
 
+// Batas Pembuka Import Activity
+import activity1 from "./landing-page/activity1.jpg";
+// Batas Penutup Import Activity
+
 // Batas Pembuka Import Sejarah
 import sejarah1 from "./landing-page/sejarah1.svg";
 import sejarah2 from "./landing-page/sejarah2.svg";
@@ -86,6 +90,8 @@ export default {
   program3,
   program4,
   // Batas Penutup Program
+
+  activity1,
 
   // Batas Pembuka Sejarah
   sejarah1,

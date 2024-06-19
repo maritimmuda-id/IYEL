@@ -1,5 +1,7 @@
 // ** Import Components
 import Banner from "@/components/landing-page/Banner/Banner";
+import Program from "@/components/landing-page/Program/Program";
+import Activity from "@/components/landing-page/Activity/Activity";
 
 // ** Import Other
 import { contentActivity } from "@/constanst/content-activity";
@@ -17,8 +19,8 @@ const ActivityPage = () => {
       />
 
       <article className="p-8 md:p-20 space-y-20">
-        <h1 className="text-center text-3xl md:text-5xl font-medium py-8">
-          Program
+        <h1 className="text-center text-3xl md:text-5xl font-bold  py-8">
+          Program Kami
         </h1>
 
         <div className="space-y-20">

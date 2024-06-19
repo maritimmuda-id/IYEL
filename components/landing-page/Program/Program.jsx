@@ -8,7 +8,7 @@ import Link from "next/link";
 const Program = () => {
   return (
     
-    <div className="bg-gray-900 py-20 px-10 text-white space-y-16">
+    <div className="bg-gray-900 py-20 px-10 text-white space-y-16 ">
     <h1 className="text-center text-3xl md:text-4xl">
       {/* Our Program */}
       Program Kami

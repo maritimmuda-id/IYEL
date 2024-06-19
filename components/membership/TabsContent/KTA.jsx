@@ -17,7 +17,8 @@ import Swal from "sweetalert2";
 import { createClientComponentClient } from "@supabase/auth-helpers-nextjs";
 import { useRouter } from "next/navigation";
 import dayjs from "dayjs";
-import localize from 'dayjs/plugin/localizedFormat'
+import localize from "dayjs/plugin/localizedFormat";
+import QRCode from "qrcode.react";
 
 const KTA = ({ user, kta }) => {
   const { user_metadata, id } = user;
@@ -60,10 +61,9 @@ const KTA = ({ user, kta }) => {
     }
   };
 
-
   const handleSubmit = async () => {
     setLoadingGenerate(true);
-    
+
     if (valid) {
       const dateNow = dayjs();
       const nextDate = dateNow.add(3, "year");
@@ -140,8 +140,8 @@ const KTA = ({ user, kta }) => {
       setloading(false);
     });
   };
-  
-  dayjs.extend(localize)
+
+  dayjs.extend(localize);
 
   return (
     <>
@@ -236,7 +236,7 @@ const KTA = ({ user, kta }) => {
                   KARTU TANDA ANGGOTA
                 </p>
 
-                <Image src={assets.logoKta} className="w-96 " />
+                <Image src={assets.logoKta} className="w-96 rounded-xl " />
               </div>
 
               <div className="bg-white w-60 rounded-full h-60 border-8 border-white  absolute -bottom-28 left-10">
@@ -252,13 +252,21 @@ const KTA = ({ user, kta }) => {
               <div className="pl-80 pr-10 flex justify-between py-10">
                 <div>
                   <h1 className="font-bold text-4xl">{dataKta.nama}</h1>
-                  <h1 className="text-[#C93233] text-3xl">
-                    Anggota Biasa Geomuda
+                  <h1 className="text-[#21ADEB] text-2xl">
+                    Anggota Biasa Indonesian Youth Economic Leaders
                   </h1>
                 </div>
 
                 <div>
-                  <Image src={assets.qr} className="w-20" />
+                  {/* https://geomuda.id/user/${dataKta.no_anggota}/membership */}
+                  <QRCode
+                    value={`http://localhost:3000/viewprofile/${
+                      dataKta.no_anggota
+                    }/${dataKta.nama}/${
+                      dataKta.organisasi_daerah
+                    }/${encodeURIComponent(dataKta.photo)}`}
+                    size={100}
+                  />
                 </div>
               </div>
 
@@ -280,12 +288,12 @@ const KTA = ({ user, kta }) => {
                 <div className="flex flex-col gap-8">
                   <div className="space-y-1">
                     <h1>Tanggal Berlaku</h1>
-                    <p>{dayjs(dataKta.start_date).format('LL')}</p>
+                    <p>{dayjs(dataKta.start_date).format("LL")}</p>
                   </div>
 
                   <div className="space-y-1">
                     <h1>Tanggal Berakhir</h1>
-                    <p>{dayjs(dataKta.end_date).format('LL')}</p>
+                    <p>{dayjs(dataKta.end_date).format("LL")}</p>
                   </div>
                 </div>
               </div>
@@ -297,7 +305,7 @@ const KTA = ({ user, kta }) => {
           </div>
 
           <button
-            className="w-full md:w-[914px] mx-auto md:flex md:justify-center bg-[#7B2418] text-white py-2"
+            className="w-full md:w-[914px] mx-auto md:flex md:justify-center bg-[#21ADEB] text-white py-2"
             onClick={downloadPdf}
           >
             {loading ? "Loading..." : "Simpan KTA"}
