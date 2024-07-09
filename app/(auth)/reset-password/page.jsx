@@ -33,11 +33,11 @@ const ResetPassword = () => {
   return (
     <div className="flex justify-center items-center h-screen w-full">
       <div className="flex space-x-10 max-w-3xl bg-slate-50 px-8 py-16 rounded-2xl shadow-xl border-2 border-slate-200">
-        <Image
-          src={assets.logoGmiDefault}
+        {/* <Image
+          src={assets.logoIyel}
           alt="geomuda logo"
           className="w-60 p-4"
-        />
+        /> */}
         <div className="space-y-4">
           <h1 className="text-xl text-center font-bold pb-4">
             Lupa Kata Sandi
@@ -59,7 +59,7 @@ const ResetPassword = () => {
 
             <button
               type="submit"
-              className="bg-[#7B2418] text-white rounded-lg text-sm p-2 w-full"
+              className="bg-[#60A5FA] text-white rounded-lg text-sm p-2 w-full"
             >
               Kirim Tautan
             </button>
