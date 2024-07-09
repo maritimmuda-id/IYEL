@@ -155,7 +155,7 @@ export default function FormRegister() {
       />
       <button
         type="submit"
-        className="bg-[#7B2418] text-white rounded-xl p-2 mb-1"
+        className="bg-[#21ADEB] text-white rounded-xl p-2 mb-1"
       >
         {loading ? <Loading /> : "Register"}
       </button>
