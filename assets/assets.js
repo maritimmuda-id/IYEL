@@ -50,22 +50,22 @@ import sideImage from "./auth/side-image.png";
 
 // Batas Pembuka Import Pengurus IYEL
 import kaisarImage from "./landing-page/Kaisar1.png";
-import endangImage from "./landing-page/Endang_Dzunuraini.png";
-import azizahImage from "./landing-page/azizah_fauziah.jpeg";
-import nazriImage from "./landing-page/Nazri.jpg";
-import dwiImage from "./landing-page/Dwi_grawana_chalista.jpg";
-import julianImage from "./landing-page/julian_gums.jpg";
+import endangImage from "./landing-page/Endang_Dzunuraini2.png";
+import azizahImage from "./landing-page/azizah_fauziah3.png";
+import nazriImage from "./landing-page/Nazri2.png";
+import dwiImage from "./landing-page/Dwi_grawana_chalista2.png";
+import julianImage from "./landing-page/julian_gums2.png";
 import hananImage from "./landing-page/Hanan_Syauqy.png";
-import roikhanatunImage from "./landing-page/Roikhanatun.jpg";
-import faustinaImage from "./landing-page/Faustina_Prima.jpeg";
-import fitrawanImage from "./landing-page/Fitrawan_Mufly_Haskari.jpg";
-import heruImage from "./landing-page/heru_saoping.jpg";
-import christoforusImage from "./landing-page/Bello_Puyanggana.png";
-import mutiaraImage from "./landing-page/Mutiara_Eka.jpg";
-import salmanImage from "./landing-page/SALMAN_AL_MUHAMADI.jpg";
-import isauraImage from "./landing-page/Isaura_Qinthara.jpg";
-import ilhamImage from "./landing-page/Muhammad_Ilham.jpg";
- // Batas Penutup Import Pengurus IYEL
+import roikhanatunImage from "./landing-page/Roikhanatun1.png";
+import faustinaImage from "./landing-page/Faustina_Prima1.png";
+import fitrawanImage from "./landing-page/Fitrawan_Mufly_Haskari1.png";
+import heruImage from "./landing-page/heru_saoping2.png";
+import christoforusImage from "./landing-page/Bello_Puyanggana2.png";
+import mutiaraImage from "./landing-page/Mutiara_Eka2.png";
+import salmanImage from "./landing-page/SALMAN_AL_MUHAMADI2.png";
+import isauraImage from "./landing-page/Isaura_Qinthara2.png";
+import ilhamImage from "./landing-page/Muhammad_Ilham2.png";
+// Batas Penutup Import Pengurus IYEL
 
 // Batas Pembuka Import KTA
 import bannerKta from "./kta/banner-kta.svg";
@@ -88,7 +88,7 @@ export default {
   banner8,
   banner9,
   // Batas Penutup Banner
- 
+
   // Batas Pembuka Program
   program1,
   program2,
@@ -153,5 +153,4 @@ export default {
   ttd,
   peopleKta,
   // Batas Penutup KTA
-
 };
