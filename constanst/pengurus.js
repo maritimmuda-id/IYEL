@@ -38,7 +38,7 @@ export const administrators = [
   },
   {
     image: assets.defaultImage,
-    name: " ",
+    name: "Laily Fathu Agustina Rifa'ah",
     position: "Wakil Sekretaris Jenderal Ekonomi Digital",
   },
   {
@@ -48,12 +48,12 @@ export const administrators = [
   },
   {
     image: assets.defaultImage,
-    name: " ",
+    name: "Zuhdan Alaik",
     position: "Wakil Sekretaris Jenderal Ekonomi Hijau",
   },
   {
     image: assets.defaultImage,
-    name: " ",
+    name: "Gabriel Sebastian Butarbutar",
     position: "Wakil Sekretaris Jenderal Ekonomi Kreatif",
   },
   {
@@ -67,8 +67,8 @@ export const administrators = [
     position: "Kepala Pusat Inovasi Bisnis Berkelanjutan",
   },
   {
-    image: assets.defaultImage,
-    name: " ",
+    image: assets.mutiaraImage,
+    name: "Mutiara Eka Puspita",
     position: "Wakil Kepala Pusat Inovasi Bisnis Berkelanjutan",
   },
   {
@@ -77,23 +77,18 @@ export const administrators = [
     position: "Sekretaris Pusat Inovasi Bisnis Berkelanjutan",
   },
   {
-    image: assets.mutiaraImage,
-    name: "Mutiara Eka Puspita",
-    position: "Wakil Kepala Pusat Inovasi dan Inkubasi Bisnis Teknologi",
-  },
-  {
     image: assets.salmanImage,
     name: "Salman Al Muhamadi",
     position: "Wakil Ketua Ekonomi Biru",
   },
   {
     image: assets.defaultImage,
-    name: " ",
+    name: "Dendy Primanandi",
     position: "Kepala Pusat Informasi dan Kerjasama",
   },
   {
     image: assets.defaultImage,
-    name: " ",
+    name: "Salman Al Muhamadi",
     position: "Wakil Kepala Pusat Informasi dan Kerjasama",
   },
   {
