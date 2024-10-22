@@ -77,9 +77,9 @@ export const administrators = [
     position: "Sekretaris Pusat Inovasi Bisnis Berkelanjutan",
   },
   {
-    image: assets.salmanImage,
-    name: "Salman Al Muhamadi",
-    position: "Wakil Ketua Ekonomi Biru",
+    image: assets.defaultImage,
+    name: "Machmud Fajri",
+    position: "Wakil Sekretaris Pusat Inovasi Bisnis Berkelanjutan",
   },
   {
     image: assets.defaultImage,
@@ -87,7 +87,7 @@ export const administrators = [
     position: "Kepala Pusat Informasi dan Kerjasama",
   },
   {
-    image: assets.defaultImage,
+    image: assets.salmanImage,
     name: "Salman Al Muhamadi",
     position: "Wakil Kepala Pusat Informasi dan Kerjasama",
   },
