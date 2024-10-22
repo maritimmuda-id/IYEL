@@ -7,34 +7,9 @@ export const administrators = [
     position: "Ketua Umum",
   },
   {
-    image: assets.endangImage,
-    name: "Endang Dzunuraini",
-    position: "Direktur Ekonomi Kreatif",
-  },
-  {
     image: assets.azizahImage,
     name: "Azizah Fauziah Misbahuddin",
-    position: "Direktur Ekononomi Digital",
-  },
-  {
-    image: assets.nazriImage,
-    name: "Muhammad Nazri Syahputra ",
-    position: "Direktur Ekonomi Hijau",
-  },
-  {
-    image: assets.dwiImage,
-    name: "Dwi Grawana Chalista",
-    position: "Wasekjen Ekonomi Biru",
-  },
-  {
-    image: assets.julianImage,
-    name: "Julian Gumay",
-    position: "Bendahara Umum",
-  },
-  {
-    image: assets.hananImage,
-    name: "Hanan Syauqy",
-    position: "Direktur Ekonomi Kesehatan",
+    position: "Direktur Ekononomi Digital",
   },
   {
     image: assets.roikhanatunImage,
@@ -42,29 +17,69 @@ export const administrators = [
     position: "Direktur Ekonomi Biru",
   },
   {
+    image: assets.nazriImage,
+    name: "Muhammad Nazri Syahputra ",
+    position: "Direktur Ekonomi Hijau",
+  },
+  {
+    image: assets.endangImage,
+    name: "Endang Dzunuraini",
+    position: "Direktur Ekonomi Kreatif",
+  },
+  {
+    image: assets.hananImage,
+    name: "Hanan Syauqy",
+    position: "Direktur Ekonomi Kesehatan",
+  },
+  {
+    image: assets.fitrawanImage,
+    name: "Fitrawan Mufly Haskari",
+    position: "Sekretaris Jenderal",
+  },
+  {
+    image: assets.defaultImage,
+    name: " ",
+    position: "Wakil Sekretaris Jenderal Ekonomi Digital",
+  },
+  {
+    image: assets.dwiImage,
+    name: "Dwi Grawana Chalista",
+    position: "Wakil Sekretaris Jenderal Ekonomi Biru",
+  },
+  {
+    image: assets.defaultImage,
+    name: " ",
+    position: "Wakil Sekretaris Jenderal Ekonomi Hijau",
+  },
+  {
+    image: assets.defaultImage,
+    name: " ",
+    position: "Wakil Sekretaris Jenderal Ekonomi Kreatif",
+  },
+  {
+    image: assets.christoforusImage,
+    name: "Christoforus Kalo Bello Puyanggana",
+    position: "Wakil Sekretaris Jenderal Ekonomi Kesehatan",
+  },
+  {
+    image: assets.heruImage,
+    name: "Heru Saoping",
+    position: "Kepala Pusat Inovasi Bisnis Berkelanjutan",
+  },
+  {
+    image: assets.defaultImage,
+    name: " ",
+    position: "Wakil Kepala Pusat Inovasi Bisnis Berkelanjutan",
+  },
+  {
     image: assets.faustinaImage,
     name: "Faustina Martha",
     position: "Sekretaris Pusat Inovasi Bisnis Berkelanjutan",
   },
   {
-    image: assets.fitrawanImage,
-    name: "Fitrawan Mufly Haskari",
-    position: "Sekjen",
-  },
-  {
-    image: assets.heruImage,
-    name: "Heru Saoping",
-    position: "Pusat Inovasi",
-  },
-  {
-    image: assets.christoforusImage,
-    name: "Christoforus Kalo Bello Puyanggana",
-    position: "Wasekjen Ekonomi Kesehatan",
-  },
-  {
     image: assets.mutiaraImage,
     name: "Mutiara Eka Puspita",
-    position: "Wakil Pusat Inovasi dan Inkubasi Bisnis Teknologi",
+    position: "Wakil Kepala Pusat Inovasi dan Inkubasi Bisnis Teknologi",
   },
   {
     image: assets.salmanImage,
@@ -72,14 +87,29 @@ export const administrators = [
     position: "Wakil Ketua Ekonomi Biru",
   },
   {
-    image: assets.isauraImage,
-    name: "Isaura Qinthara Heriswan",
-    position: "Wakil Bendahara Umum",
+    image: assets.defaultImage,
+    name: " ",
+    position: "Kepala Pusat Informasi dan Kerjasama",
+  },
+  {
+    image: assets.defaultImage,
+    name: " ",
+    position: "Wakil Kepala Pusat Informasi dan Kerjasama",
   },
   {
     image: assets.ilhamImage,
     name: "Muhammad Ilham ",
     position: "Sekretaris Pusat Informasi dan Kerjasama",
+  },
+  {
+    image: assets.julianImage,
+    name: "Julian Gumay",
+    position: "Bendahara Umum",
+  },
+  {
+    image: assets.isauraImage,
+    name: "Isaura Qinthara Heriswan",
+    position: "Wakil Bendahara Umum",
   },
 
 ];
