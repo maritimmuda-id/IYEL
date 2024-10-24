@@ -65,6 +65,7 @@ import mutiaraImage from "./landing-page/Mutiara_Eka2.png";
 import salmanImage from "./landing-page/SALMAN_AL_MUHAMADI2.png";
 import isauraImage from "./landing-page/Isaura_Qinthara2.png";
 import ilhamImage from "./landing-page/Muhammad_Ilham2.png";
+import zuhdanImage from "./landing-page/Zuhdan.png";
 // Batas Penutup Import Pengurus IYEL
 
 // Batas Pembuka Import KTA
@@ -144,6 +145,7 @@ export default {
   salmanImage,
   isauraImage,
   ilhamImage,
+  zuhdanImage,
   // Batas Penutup Pengurus IYEL
 
   // Batas Pembuka KTA

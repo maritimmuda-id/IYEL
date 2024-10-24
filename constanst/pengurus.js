@@ -47,7 +47,7 @@ export const administrators = [
     position: "Wakil Sekretaris Jenderal Ekonomi Biru",
   },
   {
-    image: assets.defaultImage,
+    image: assets.zuhdanImage,
     name: "Zuhdan Alaik",
     position: "Wakil Sekretaris Jenderal Ekonomi Hijau",
   },
