@@ -68,10 +68,10 @@ const Footer = () => {
               </li>
               <li className="flex justify-center items-center gap-2">
                 <MdEmail />
-                iyeleaders@gmail.com
+                youtheconomicleaders.id@gmail.com
               </li>
               <li className="flex justify-center items-center gap-3 text-2xl pt-2">
-                <Link href="" target="_blank">
+                <Link href="https://www.instagram.com/youtheconomicleaders.id?igsh=MXYzbGtiYzV4d25iMg==" target="_blank">
                   <RiInstagramFill />
                 </Link>
                 <Link href="#">
