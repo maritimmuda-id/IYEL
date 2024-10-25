@@ -62,10 +62,10 @@ const Footer = () => {
               Kontak
             </h4> 
             <ul className="space-y-1 text-sm">
-              <li className="flex justify-center items-center gap-2">
+              {/*<li className="flex justify-center items-center gap-2">
                 <BsFillTelephoneFill />
                 +62-090-9090
-              </li>
+                </li>*/}
               <li className="flex justify-center items-center gap-2">
                 <MdEmail />
                 youtheconomicleaders.id@gmail.com
